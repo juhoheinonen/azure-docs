@@ -20,7 +20,7 @@ Microsoft Azure Traffic Manager allows you to control how network traffic is dis
 There are three types of endpoint supported by Traffic Manager:
 
 * **Azure endpoints** are used for services hosted in Azure.
-* **External endpoints** are used for IPv4/IPv6 addresses, FQDNs, or for services hosted outside Azure. Theses services can either be on-premises or with a different hosting provider.
+* **External endpoints** are used for IPv4/IPv6 addresses, FQDNs, or for services hosted outside Azure. These services can either be on-premises or with a different hosting provider.
 * **Nested endpoints** are used to combine Traffic Manager profiles to create more flexible traffic-routing schemes to support the needs of larger, more complex deployments.
 
 There's no restriction on how endpoints of different types are combined in a single Traffic Manager profile. Each profile can contain any mix of endpoint types.
